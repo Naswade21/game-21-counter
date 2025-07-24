@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+
+.col-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+.btn-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.winner{
+    text-align: center;
+}
+
+.previous-winners{
+    text-align: center;
+}
+
+.fthrow{
+    color: snow;
+    font-size: 1rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: green;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.two-po{
+    font-size: 1rem;
+    color: snow;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: lightcoral;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.three-po{
+    color: snow;
+    font-size: 1rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: black;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.game-winner{
+    color: snow;
+    font-size: 1rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: goldenrod;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+p{
+    font-size: 2rem;
+}
